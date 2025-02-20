@@ -8,24 +8,19 @@ import Wishlist from "./Wishlist";
 import Typewriter from "typewriter-effect";
 import Cart from "./Cart";
 
-const Navbar = () => {
+const Header = () => {
   const [isLoginOpen, setIsLoginOpen] = useState(false);
   const [isCompareOpen, setCompareOpen] = useState(false);
   const [isWhishlist, setIsWishlistOpen] = useState(false);
 
   const [isCartVisible, setIsCartVisible] = useState(false);
 
-  // const toggleCartVisibility = () => {
-  //   setIsCartVisible((prev) => !prev);
-  // };
+  
 
   const handleCompareClose = () => {
     setCompareOpen(false);
   };
 
-  // const handleLoginClose = () => {
-  //   setIsLoginOpen(false);
-  // };
 
   return (
     <>
@@ -120,4 +115,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Header;

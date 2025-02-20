@@ -54,7 +54,18 @@ const Modal = ({ onClose, children, title }) => {
         </div>
       </div>
     </div>
-  );
+  
+);
+
+
 };
 
+
+
 export default Modal;
+
+
+
+
+
+
